@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  text-rendering: optimizeSpeed;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  color: inherit;
+}
+
+/* header section  */
+
+header {
+  padding: 1rem 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+header:has(h1, p),
+section h2 {
+  background: linear-gradient(360deg, #234eb0 5%, #9010b0 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 600;
+}
+
+/* university section  */
+
+section {
+  padding: 1rem 4rem;
+}
+section .group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+section select {
+  padding: 0.3rem 0.5rem;
+  background-image: linear-gradient(to right, #234eb0 0%, #9010b0 100%);
+  color: #fff;
+  border-radius: 2rem;
+}
+section select option {
+  background-color: #050505;
+}
+
+.university-list {
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+.university-list .university-card {
+  background-image: linear-gradient(to right, #234eb0 0%, #9010b0 100%);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  flex: 1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  color: #fff;
+  height: 200px;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.university-list .university-card .front,
+.university-list .university-card .back {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(1px) brightness(60%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px rgba(100, 100, 100, 0.9);
+}
+.university-list .university-card .back {
+  transform: translateY(-100%);
+}
+.university-list .university-card:hover {
+  transform: scale(1.05);
+}
+.university-list .university-card:hover .front {
+  transform: translateY(-100%);
+}
+
+.university-list .university-card:hover .back {
+  transform: translateY(0);
+}
