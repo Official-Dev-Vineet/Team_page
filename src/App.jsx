@@ -1,4 +1,6 @@
 import { Header } from "./Components/Header";
+import { OurAdviser } from "./Components/OurAdviser";
+import { OurMentor } from "./Components/OurMentor";
 import { University } from "./Components/University";
 
 export const App = () => {
@@ -11,6 +13,8 @@ export const App = () => {
         }
       />
       <University />
+      <OurMentor />
+      <OurAdviser />
     </main>
   );
 };

@@ -163,3 +163,96 @@ export const universityList = [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fceramahmotivasi.com%2Fwp-content%2Fuploads%2F2018%2F10%2Funiversity-of-amsterdam.jpg&f=1&nofb=1&ipt=fd2353746ba760bb312a2a872173bbcdf09f986150900c021980f44e68145a1f&ipo=images",
   },
 ];
+
+export const mentor = [
+  {
+    name: "Marc Nahmani",
+    image:
+      "https://www.tacoma.uw.edu/sites/default/files/styles/responsive_1940x_/public/2023-02/11.jpg",
+    research: [
+      "Improving Brain Recovery After Stroke",
+      "Determining how Neurons Maintain Homeostasis in Health & Disease",
+      "Discovering How Brains Reconnect After Acute Injury",
+    ],
+    university: "University of California, Berkeley",
+    email: "mnahmani@uw.edu",
+    hobby:
+      "spicy foods, loves traveling and becoming immersed in new cultures & traditions, enjoys watching/debating/quoting movies, and will almost never turn down an offer for karaoke.",
+  },
+  {
+    name: "Morgan Heinz",
+    image:
+      "https://www.tacoma.uw.edu/sites/default/files/styles/responsive_1940x_/public/2023-02/Heinz_Morgan.jpg",
+    research: ["Infectious disease", "Nutritional immunology", "Music therapy"],
+    university: "University of Washington",
+    email: "hheinz@uw.edu",
+    hobby:
+      "See, feel, hear, smell, and use tools to extend and refine your basic senses. Thermometers, microscopes, telescopes, radar, radiation sensors, X-ray crystallography, and mass spectroscopy can do a better job of observing than we can.",
+  },
+  {
+    name: "Kayla Ahlness",
+    image: "https://www.fau.edu/ouri/images/kayla-ahlness.jpg",
+    research: [
+      "Animal conservation",
+      "behavioral ecology",
+      "data science",
+      "citizen science",
+      "biological education",
+    ],
+    university: "University of Cambridge",
+    email: "kahlness2020@fau.edu",
+    hobby:
+      " I love playing the drums and learning new songs. I’ve also played competitive roller derby for 10 years. When I have free time, I play board games with my family and friends. Awards: OURI Undergraduate Research Grant, Fall 2021; Poster Winner at the FAU Data-Driven Science and AI Conference, Spring 2022; William Jerald Kennedy Faculty Award for Outstanding Anthropology Major, Spring 2022",
+  },
+  {
+    name: "Selah Brammer",
+    image: "https://www.fau.edu/ouri/images/selah-brammer.jpg",
+    research: ["Cell Biology", "Immunology", "Virology", "Bacteriology"],
+    university: "University of Amsterdam",
+    email: "sbrammer2018@fau.edu",
+    hobby:
+      "I’m interested in the arts and love to draw, write and perform music. A fun fact about me is that I am a black belt in karate. Programs: 2021-2022 LEARN Program Alumni",
+  },
+  {
+    name: "Numana Luqman",
+    image: "https://www.fau.edu/ouri/images/numana-luqman.jpg",
+    research: ["Cellular", "Behavioral Neuroscience", "Cell Biology"],
+    email: "nluqman2019@fau.edu",
+    university: "University of Toronto",
+    hobby: "Listening to music, Swimming, and Reading",
+  },
+  {
+    name: "Jessica Young",
+    image: "https://www.fau.edu/ouri/images/jessica-small.jpg",
+    research: [
+      "Native species conservation",
+      "Irish literature",
+      "visual communication",
+    ],
+    email: "youngjessica2015@fau.edu ",
+    university: "McGill University",
+    hobby:
+      "I enjoy walking in nature preserves and swimming. Awards: Outstanding Thesis Award, 2022; OURI Undergraduate Research Grant, Spring and Fall 2019",
+  },
+  {
+    name: "Simon Hester",
+    image:
+      "https://68.media.tumblr.com/728ebb6951427e68be60c8e50d55ae0e/tumblr_o18z36fNJs1sn35i0o1_1280.jpg",
+    research: ["Cell Biology", "Immunology", "Virology", "Bacteriology"],
+    university: "University of Amsterdam",
+    email: "shester201@fau.edu",
+    hobby: "I love playing the drums and learning new songs.",
+  },
+  {
+    name: "Hannah Lee",
+    image:
+      "https://68.media.tumblr.com/2df7c93f956a473167ea43d58e418486/tumblr_o2tbhziJij1tlay0to1_500.jpg",
+    research: ["Cell Biology", "Immunology", "Virology", "Bacteriology"],
+    university: "University of Amsterdam",
+    email: "hlee318@fau.edu",
+    hobby:
+      "I love playing the drums and learning new songs. I’ve also played competitive roller derby for 10 years. When I have free time, I play board games with my family and friends. Awards: OURI Undergraduate Research Grant, Fall 2021; Poster Winner at the FAU Data-Driven Science and AI Conference, Spring 2022; William Jerald Kennedy Faculty Award for Outstanding Anthropology Major, Spring 2022",
+  },
+];
+
+export const mainAdviser = "https://www.sciastra.com/teams/dr_omkar.jpg";
