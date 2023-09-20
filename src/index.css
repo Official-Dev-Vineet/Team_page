@@ -106,7 +106,7 @@ section select option {
   font-size: 0.9rem;
   transition: 0.3s ease-in-out;
   border-radius: 0.5rem;
-  box-shadow: 0 0 5px #234eb0, 0 0 10px #9010b0;
+  box-shadow: 0 0 5px 2px #fff;
 }
 .university-list .university-card .back {
   transform: translateY(-100%);
